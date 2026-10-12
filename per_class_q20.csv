@@ -1,0 +1,61 @@
+model,codec,class_name,base_acc,acc,drop_pts,p,p_holm,significant,share_of_total_drop
+ResNet-50,JPEG,English springer,0.98,0.78,20.0,0.0,0.0006,True,0.2667
+ResNet-50,JPEG,French horn,0.94,0.86,8.0,0.0078,0.375,False,0.1067
+ResNet-50,JPEG,cassette player,0.54,0.57,-3.0,0.5488,1.0,False,-0.04
+ResNet-50,JPEG,chain saw,0.95,0.86,9.0,0.0117,0.5273,False,0.12
+ResNet-50,JPEG,church,0.7,0.39,31.0,0.0,0.0,True,0.4133
+ResNet-50,JPEG,garbage truck,0.98,0.96,2.0,0.5,1.0,False,0.0267
+ResNet-50,JPEG,gas pump,0.95,0.9,5.0,0.0625,1.0,False,0.0667
+ResNet-50,JPEG,golf ball,0.99,0.98,1.0,1.0,1.0,False,0.0133
+ResNet-50,JPEG,parachute,0.94,0.94,0.0,1.0,1.0,False,0.0
+ResNet-50,JPEG,tench,0.99,0.97,2.0,0.5,1.0,False,0.0267
+ResNet-50,WebP,English springer,0.98,0.9,8.0,0.0078,0.375,False,0.1429
+ResNet-50,WebP,French horn,0.94,0.87,7.0,0.0391,1.0,False,0.125
+ResNet-50,WebP,cassette player,0.54,0.49,5.0,0.2668,1.0,False,0.0893
+ResNet-50,WebP,chain saw,0.95,0.87,8.0,0.0215,0.9238,False,0.1429
+ResNet-50,WebP,church,0.7,0.54,16.0,0.0001,0.0078,True,0.2857
+ResNet-50,WebP,garbage truck,0.98,0.96,2.0,0.5,1.0,False,0.0357
+ResNet-50,WebP,gas pump,0.95,0.91,4.0,0.125,1.0,False,0.0714
+ResNet-50,WebP,golf ball,0.99,0.97,2.0,0.5,1.0,False,0.0357
+ResNet-50,WebP,parachute,0.94,0.91,3.0,0.25,1.0,False,0.0536
+ResNet-50,WebP,tench,0.99,0.98,1.0,1.0,1.0,False,0.0179
+ResNet-50,AVIF,English springer,0.98,0.64,34.0,0.0,0.0,True,0.3091
+ResNet-50,AVIF,French horn,0.94,0.88,6.0,0.0312,1.0,False,0.0545
+ResNet-50,AVIF,cassette player,0.54,0.66,-12.0,0.0227,0.9515,False,-0.1091
+ResNet-50,AVIF,chain saw,0.95,0.79,16.0,0.0001,0.0078,True,0.1455
+ResNet-50,AVIF,church,0.7,0.37,33.0,0.0,0.0,True,0.3
+ResNet-50,AVIF,garbage truck,0.98,0.91,7.0,0.0156,0.6875,False,0.0636
+ResNet-50,AVIF,gas pump,0.95,0.82,13.0,0.0002,0.0127,True,0.1182
+ResNet-50,AVIF,golf ball,0.99,0.94,5.0,0.0625,1.0,False,0.0455
+ResNet-50,AVIF,parachute,0.94,0.89,5.0,0.0625,1.0,False,0.0455
+ResNet-50,AVIF,tench,0.99,0.96,3.0,0.25,1.0,False,0.0273
+ViT-B/16,JPEG,English springer,0.94,0.91,3.0,0.25,1.0,False,0.1579
+ViT-B/16,JPEG,French horn,0.94,0.9,4.0,0.125,1.0,False,0.2105
+ViT-B/16,JPEG,cassette player,0.57,0.61,-4.0,0.424,1.0,False,-0.2105
+ViT-B/16,JPEG,chain saw,0.99,0.96,3.0,0.25,1.0,False,0.1579
+ViT-B/16,JPEG,church,0.67,0.58,9.0,0.0039,0.1953,False,0.4737
+ViT-B/16,JPEG,garbage truck,0.94,0.93,1.0,1.0,1.0,False,0.0526
+ViT-B/16,JPEG,gas pump,0.97,0.95,2.0,0.5,1.0,False,0.1053
+ViT-B/16,JPEG,golf ball,0.99,0.98,1.0,1.0,1.0,False,0.0526
+ViT-B/16,JPEG,parachute,0.96,0.96,0.0,1.0,1.0,False,0.0
+ViT-B/16,JPEG,tench,0.98,0.98,0.0,1.0,1.0,False,0.0
+ViT-B/16,WebP,English springer,0.94,0.92,2.0,0.5,1.0,False,0.125
+ViT-B/16,WebP,French horn,0.94,0.88,6.0,0.0312,1.0,False,0.375
+ViT-B/16,WebP,cassette player,0.57,0.64,-7.0,0.1185,1.0,False,-0.4375
+ViT-B/16,WebP,chain saw,0.99,0.94,5.0,0.0625,1.0,False,0.3125
+ViT-B/16,WebP,church,0.67,0.59,8.0,0.0078,0.375,False,0.5
+ViT-B/16,WebP,garbage truck,0.94,0.95,-1.0,1.0,1.0,False,-0.0625
+ViT-B/16,WebP,gas pump,0.97,0.97,0.0,1.0,1.0,False,0.0
+ViT-B/16,WebP,golf ball,0.99,0.99,0.0,1.0,1.0,False,0.0
+ViT-B/16,WebP,parachute,0.96,0.95,1.0,1.0,1.0,False,0.0625
+ViT-B/16,WebP,tench,0.98,0.96,2.0,0.5,1.0,False,0.125
+ViT-B/16,AVIF,English springer,0.94,0.77,17.0,0.0,0.0008,True,0.5484
+ViT-B/16,AVIF,French horn,0.94,0.89,5.0,0.125,1.0,False,0.1613
+ViT-B/16,AVIF,cassette player,0.57,0.8,-23.0,0.0,0.0001,True,-0.7419
+ViT-B/16,AVIF,chain saw,0.99,0.87,12.0,0.0005,0.0249,True,0.3871
+ViT-B/16,AVIF,church,0.67,0.57,10.0,0.0063,0.311,False,0.3226
+ViT-B/16,AVIF,garbage truck,0.94,0.91,3.0,0.375,1.0,False,0.0968
+ViT-B/16,AVIF,gas pump,0.97,0.94,3.0,0.25,1.0,False,0.0968
+ViT-B/16,AVIF,golf ball,0.99,0.95,4.0,0.125,1.0,False,0.129
+ViT-B/16,AVIF,parachute,0.96,0.96,0.0,1.0,1.0,False,0.0
+ViT-B/16,AVIF,tench,0.98,0.98,0.0,1.0,1.0,False,0.0
